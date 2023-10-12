@@ -2,3 +2,11 @@
     display: flex;
     justify-content: space-between;
 }
+.inputDiv{
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+}
+.headerNameDiv{
+    margin: 1%;
+}

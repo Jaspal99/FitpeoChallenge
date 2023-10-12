@@ -1,0 +1,15 @@
+.barMainDiv{
+    background-color: white;
+    width: 70%;
+    padding: 3%;
+}
+.headerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+.bargraphDiv{
+    border: 1px solid black;
+    height: 80%;
+}

@@ -6,7 +6,7 @@ import Header from '../../components/Header/Header';
 import Highlight from '../../components/Highlight/Highlight';
 import Bargraph from '../../components/Graph/Bargraph/Bargraph';
 import PieGraph from '../../components/Graph/Piegraph/Piegraph';
-import Table from '../../components/Table/Table';
+import TableContainer from '../../components/Table/TableContainer';
 const Dashboard = ()=>{
     return(
         <div className='dashboardContainer'>
@@ -24,7 +24,7 @@ const Dashboard = ()=>{
                 <PieGraph />
             </div>
             <div className='tableContainer'>
-                <Table />
+                <TableContainer />
             </div>
         </div>
     )

@@ -1,4 +1,18 @@
 .highlightInnerContainer{
     background-color: #fff;
     display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.infoContainer{
+    align-items: center;
 }

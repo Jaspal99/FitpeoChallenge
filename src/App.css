@@ -11,14 +11,15 @@ body, html, #root {
 .App{
   display: contents;
   flex-direction: column;
+  height: 100%;
 }
 .app-container {
-  width: 85%; 
-  
+  flex: 1;
+  display: flex;
 }
 
 .side-drawer {
   width: 15%; 
   min-width: 216px;
-  
+  height: 100%;
 }

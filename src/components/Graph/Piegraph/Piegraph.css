@@ -1,0 +1,15 @@
+.piegraphMainDiv{
+    background-color: white;
+    padding: 3%;
+}
+.pieHeading{
+    font-size: large;
+}
+.piesubheading{
+color: gray;
+font-size: small;
+}
+.piechart{
+    border: 1px solid black;
+    height: 80%;
+}

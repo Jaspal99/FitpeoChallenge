@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './Highlight'
+import './Highlight.css'
 import { faCircleDollarToSlot, faCoffee, faDollar } from '@fortawesome/free-solid-svg-icons'
 
 const element = <FontAwesomeIcon icon={faDollar} />
@@ -10,9 +10,9 @@ export default function Highlight(){
   {element}
 
             </div>
-            <div>
+            <div className='infoContainer'>
                 <p>Earning</p>
-                <h3>$198k</h3>
+                <h1>$198k</h1>
                 <p>^37.8% this month</p>
             </div>
         </div>
