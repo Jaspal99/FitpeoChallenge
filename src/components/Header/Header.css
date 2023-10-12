@@ -1,0 +1,4 @@
+.headerInnerContainer{
+    display: flex;
+    justify-content: space-between;
+}

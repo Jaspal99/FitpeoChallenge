@@ -1,0 +1,15 @@
+.dashboardContainer{
+    background-color: #f5f6f8;
+    padding: 3%;
+    width: 100%;
+    height: 100%;
+}
+.highlightContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.graphContainer{
+    display: flex;
+    justify-content: space-between;
+}
