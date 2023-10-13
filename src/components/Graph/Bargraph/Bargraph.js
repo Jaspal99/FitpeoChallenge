@@ -1,4 +1,5 @@
 import './Bargraph.css'
+
 export default function Bargraph(){
     return (
         <div className="barMainDiv">

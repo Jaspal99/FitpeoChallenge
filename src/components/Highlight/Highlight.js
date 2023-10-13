@@ -1,20 +1,27 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Highlight.css'
-import { faCircleDollarToSlot, faCoffee, faDollar } from '@fortawesome/free-solid-svg-icons'
+import { faArrowDown, faArrowUp, faCircleDollarToSlot, faCoffee, faDollar } from '@fortawesome/free-solid-svg-icons'
 
-const element = <FontAwesomeIcon icon={faDollar} />
-export default function Highlight(){
+// const element = <FontAwesomeIcon icon={faDollar} />
+export default function Highlight({item}){
     return (
         <div className="highlightInnerContainer">
-            <div className="imageContainer">
-  {element}
-
-            </div>
-            <div className='infoContainer'>
-                <p>Earning</p>
-                <h1>$198k</h1>
-                <p>^37.8% this month</p>
-            </div>
+            <div className={`${item?.className}`} style={{
+                backgroundColor:item?.bgcolor
+            }}>{item?.element}</div>
+            <div class="container">
+    <div class="item">
+        <div className='heading'>{item?.heading}</div>
+        <div className='amount'>{item?.amount}</div>
+        <div className='subContainer'>
+            <div className={item?.paraClass} >
+                <FontAwesomeIcon icon={item?.paraClass === 'inc' ? faArrowUp : faArrowDown} />
+            {item?.perc + " "} 
+                </div>
+             {" "+ item?.desc}
+        </div>
+    </div>
+</div>
         </div>
     )
 }
